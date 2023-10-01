@@ -10,7 +10,7 @@ A program intended to provide light assistance to moderate **video game addicts*
 1. Download the latest release, and extract its contents to a new folder in your desired installation destination, perhaps `%LocalAppData%`.
 1. Open `2FP.config` in a text editor. On each line after `Blacklist:` is a **process name** you want to block your access to, **every day** *except* the specified `Game Day`. Anything on a blacklist line after a space or tab is a comment.
 1. Create a shortcut to `2FP.exe`.
-1. Open Run with *Win + R* and enter *shell:startup*.
+1. Open Run with *Win + R* and enter `shell:startup`.
 1. Move the new shortcut into this folder, and now the program will run whenever you (and only you) login.
 
 See the prepackaged example config for a syntax guide.
@@ -21,6 +21,6 @@ Saving changes to the config will immediately reload it; no need to restart 2FP.
 
 Be careful playing near midnight on Game Day, as a blacklisted process will close at the turn of the day without warning.
 
-I've never seen a game with binary name with a space in it, so if you got one, you're screwed, I'm not gonna bother making the config parse quotes and shit.
+I've never seen a game with a binary name with a space in it, so if you got one, you're screwed, I'm not gonna bother making the config parse quotes and shit.
 
 If this tool does not help you, please visit https://gamequitters.com/.
