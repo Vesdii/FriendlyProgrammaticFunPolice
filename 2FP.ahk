@@ -4,7 +4,7 @@
 Blacklist := 0, GameDay := 0, ConfigProcessed := 0
 
 Configure() {
-	global Blacklist := 0, GameDay := 0
+	global Blacklist, GameDay
 
 	loop read "2FP.config" {
 		;OutputDebug A_LoopReadLine ; DEBUG
