@@ -7,11 +7,11 @@ A program intended to provide light assistance to moderate **video game addicts*
 
 
 ## How do I use it?
-	1. Download the latest release, and extract its contained folder to a desired installation destination, perhaps `%LocalAppData%`.
-	1. Open `2FP.config` in a text editor. On each line after `Blacklist:` is a **process name** you want to block your access to, **every day** *except* the specified `Game Day`. Anything on a blacklist line after a space or tab is a comment.
-	1. Create a shortcut to `2FP.exe`.
-	1. Open Run with *Win + R* and enter *shell:startup*.
-	1. Move the new shortcut into this folder, and now the program will run whenever you (and only you) login.
+1. Download the latest release, and extract its contents to a new folder in your desired installation destination, perhaps `%LocalAppData%`.
+1. Open `2FP.config` in a text editor. On each line after `Blacklist:` is a **process name** you want to block your access to, **every day** *except* the specified `Game Day`. Anything on a blacklist line after a space or tab is a comment.
+1. Create a shortcut to `2FP.exe`.
+1. Open Run with *Win + R* and enter *shell:startup*.
+1. Move the new shortcut into this folder, and now the program will run whenever you (and only you) login.
 
 See the prepackaged example config for a syntax guide.
 
